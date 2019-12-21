@@ -71,7 +71,7 @@ class MyEmail:
 def main():
     example_message = MyEmail('smtp.gmail.com', 'imap.gmail.com', 'login@gmail.com', 'qwerty')
     # example_message.send_message('Subject', ['vasya@email.com', 'petya@email.com'], 'Message', None)
-    example_message.receive_message("inbox", None)
+    # example_message.receive_message("inbox", None)
 
 if __name__ == '__main__':
     main()
